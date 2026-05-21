@@ -1,128 +1,755 @@
 {
   "addons": [
-    {"folder":"ACP","name":"Addon Control Panel","description":"Manage which addons are loaded without reloading the UI.","category":"Utility"},
-    {"folder":"AckisRecipeList","name":"Ackis Recipe List","description":"Scans your tradeskills and tells you which recipes you are missing.","category":"Professions"},
-    {"folder":"AllStats","name":"All Stats","description":"Displays all character stats in the character frame.","category":"UI"},
-    {"folder":"Altoholic","name":"Altoholic","description":"Tracks items, currencies, and info across all your characters.","category":"Utility"},
-    {"folder":"Atlas","name":"Atlas","description":"Detailed maps for every dungeon and raid instance.","category":"Map"},
-    {"folder":"AtlasLoot","name":"AtlasLoot","description":"Shows potential loot from every boss in the game.","category":"Map"},
-    {"folder":"Auc-Advanced","name":"Auctioneer Advanced","description":"Powerful auction house scanner and pricing tool.","category":"Auction"},
-    {"folder":"AutoRepair","name":"Auto Repair","description":"Automatically repairs your gear when visiting a vendor.","category":"Utility"},
-    {"folder":"Bagnon","name":"Bagnon","description":"Combines all your bags into a single searchable window.","category":"Bags"},
-    {"folder":"BankItems","name":"Bank Items","description":"Tracks what items are in your bank across all characters.","category":"Bags"},
-    {"folder":"BankStack","name":"Bank Stack","description":"Automatically stacks and sorts items in your bank.","category":"Bags"},
-    {"folder":"Bartender4","name":"Bartender4","description":"Full action bar replacement with extensive customization.","category":"UI"},
-    {"folder":"BeanCounter","name":"Bean Counter","description":"Tracks your auction house transactions and profits.","category":"Auction"},
-    {"folder":"BigWigs","name":"BigWigs Bossmods","description":"Boss encounter timers and alerts for raids.","category":"Raid"},
-    {"folder":"BlizzMove","name":"BlizzMove","description":"Makes all default Blizzard frames movable and resizable.","category":"UI"},
-    {"folder":"BossEncounter2","name":"Boss Encounter 2","description":"Displays boss mechanics and encounter information.","category":"Raid"},
-    {"folder":"BreadCrumbs","name":"Bread Crumbs","description":"Highlights breadcrumb quests so you don't miss them.","category":"Questing"},
-    {"folder":"ButtonFacade","name":"ButtonFacade","description":"Apply custom skins and textures to your action buttons.","category":"UI"},
-    {"folder":"Capping","name":"Capping","description":"Battleground timers, node capture progress, and info.","category":"PvP"},
-    {"folder":"Carbonite","name":"Carbonite","description":"All-in-one quest helper with enhanced world map.","category":"Questing"},
-    {"folder":"Chinchilla","name":"Chinchilla Minimap","description":"Fully customizable minimap replacement.","category":"UI"},
-    {"folder":"Clique","name":"Clique","description":"Click-cast healing and buff spells directly on unit frames.","category":"Raid"},
-    {"folder":"Collectinator","name":"Collectinator","description":"Tracks which pets, mounts and collectibles you are missing.","category":"Utility"},
-    {"folder":"CombatLogFix","name":"Combat Log Fix","description":"Increases combat log range to capture all events.","category":"Combat"},
-    {"folder":"Combuctor","name":"Combuctor","description":"Bag replacement with item search and categorisation.","category":"Bags"},
-    {"folder":"CrapAway","name":"Crap Away","description":"Automatically sells grey (junk) items when visiting a vendor.","category":"Utility"},
-    {"folder":"Critline","name":"Critline","description":"Tracks and announces your best hits, crits and heals.","category":"Combat"},
-    {"folder":"Cromulent","name":"Cromulent","description":"Displays realm and connection information.","category":"Utility"},
-    {"folder":"DBM","name":"Deadly Boss Mods","description":"The most popular boss mod — timers and alerts for every encounter.","category":"Raid"},
-    {"folder":"DebuffFilter","name":"Debuff Filter","description":"Filters and prioritises which debuffs are shown on frames.","category":"Raid"},
-    {"folder":"Decursive","name":"Decursive","description":"One-click decursing with a clean micro-display of affected players.","category":"Raid"},
-    {"folder":"Details-Damage-Meter","name":"Details! Damage Meter","description":"Highly detailed combat damage and healing meter.","category":"Raid"},
-    {"folder":"DiminishingReturns","name":"Diminishing Returns","description":"Tracks PvP diminishing returns on your targets.","category":"PvP"},
-    {"folder":"Dominos","name":"Dominos","description":"Flexible action bar replacement.","category":"UI"},
-    {"folder":"Doom_CooldownPulse","name":"Doom Cooldown Pulse","description":"Shows a pulsing icon when a cooldown finishes.","category":"Combat"},
-    {"folder":"DrDamage","name":"Dr. Damage","description":"Shows damage and healing values on your action bar buttons.","category":"Combat"},
-    {"folder":"ElkBuffBars","name":"Elk Buff Bars","description":"Displays buffs and debuffs as scrolling bars.","category":"UI"},
-    {"folder":"ElvUI","name":"ElvUI","description":"Complete, polished UI replacement covering every element.","category":"UI"},
-    {"folder":"Enchantrix","name":"Enchantrix","description":"Enchanting disenchant value overlay in item tooltips.","category":"Auction"},
-    {"folder":"EquusInfinata","name":"Equus Infinata","description":"Displays mount speed and collection information.","category":"Utility"},
-    {"folder":"FS_Cooldowns","name":"FS Cooldowns","description":"Tracks raid-wide cooldowns on a clean display.","category":"Raid"},
-    {"folder":"Factionizer","name":"Factionizer","description":"Helps plan and track reputation grinding.","category":"Utility"},
-    {"folder":"FollowFelankor","name":"Follow Felankor","description":"Auto-follow and movement helper addon.","category":"Utility"},
-    {"folder":"FramesResized","name":"Frames Resized","description":"Resize and reposition default Blizzard UI frames.","category":"UI"},
-    {"folder":"GMGenie","name":"GM Genie","description":"Server admin tools and GM commands interface.","category":"Utility"},
-    {"folder":"GTFO","name":"GTFO","description":"Plays an alert sound when you stand in something dangerous.","category":"Raid"},
-    {"folder":"GatherMate","name":"GatherMate","description":"Records and displays herb and ore node locations on your map.","category":"Professions"},
-    {"folder":"GatherMate_Data","name":"GatherMate Data","description":"Pre-loaded node data for GatherMate.","category":"Professions"},
-    {"folder":"Gatherer","name":"Gatherer","description":"Tracks gathering node locations and shows them on the minimap.","category":"Professions"},
-    {"folder":"GcdHackTracker","name":"GCD Hack Tracker","description":"Detects players using GCD manipulation hacks.","category":"Utility"},
-    {"folder":"GearScore","name":"GearScore","description":"Calculates and displays a gear score for any character.","category":"Utility"},
-    {"folder":"Gladius","name":"Gladius","description":"Arena enemy unit frames with DR tracking and cooldowns.","category":"PvP"},
-    {"folder":"GoblinVendorFilter","name":"Goblin Vendor Filter","description":"Filters vendor items to show only what you need.","category":"Utility"},
-    {"folder":"Grid","name":"Grid","description":"Compact, configurable raid frame with status indicators.","category":"Raid"},
-    {"folder":"GuildBankSearch","name":"Guild Bank Search","description":"Search all tabs of the guild bank by item name.","category":"Utility"},
-    {"folder":"HealBot","name":"HealBot Continued","description":"Healing addon with customisable click-casting on raid frames.","category":"Raid"},
-    {"folder":"HealOrganizer","name":"Heal Organizer","description":"Assigns and organises healer assignments for raids.","category":"Raid"},
-    {"folder":"Healers-Have-To-Die","name":"Healers Have To Die","description":"Marks enemy healers in PvP for quick identification.","category":"PvP"},
-    {"folder":"Healium","name":"Healium","description":"Simple healing frame with click-to-heal support.","category":"Raid"},
-    {"folder":"IceHUD","name":"IceHUD","description":"Heads-up display showing health, mana, and cast info near your character.","category":"UI"},
-    {"folder":"IdTip","name":"ID Tip","description":"Shows item, spell, and NPC IDs in tooltips.","category":"Utility"},
-    {"folder":"Informant","name":"Informant","description":"Adds detailed vendor value and item information to tooltips.","category":"Auction"},
-    {"folder":"InterruptBar","name":"Interrupt Bar","description":"Tracks interrupt cooldowns for your whole group.","category":"Raid"},
-    {"folder":"Jamba","name":"Jamba","description":"Multiboxing addon for managing multiple WoW clients.","category":"Utility"},
-    {"folder":"LittleWigs","name":"LittleWigs","description":"Boss mods for 5-man dungeons, paired with BigWigs.","category":"Raid"},
-    {"folder":"LootHog","name":"Loot Hog","description":"Enhanced loot distribution and master loot helper.","category":"Raid"},
-    {"folder":"MBB","name":"MinimapButtonBag","description":"Collects minimap buttons into a single clean icon.","category":"UI"},
-    {"folder":"Magnet","name":"Magnet","description":"Auto-loots nearby corpses as you move past them.","category":"Utility"},
-    {"folder":"Mapster","name":"Mapster","description":"Clean world map enhancement with coordinates and addons.","category":"Map"},
-    {"folder":"MikScrollingBattleText","name":"Mik Scrolling Battle Text","description":"Configurable scrolling combat text replacement.","category":"Combat"},
-    {"folder":"MonkeySpeed","name":"Monkey Speed","description":"Shows your current movement speed on screen.","category":"Utility"},
-    {"folder":"MoveAnything","name":"MoveAnything","description":"Move, scale, and hide any element of the default UI.","category":"UI"},
-    {"folder":"MyBuffz","name":"My Buffz","description":"Custom buff and debuff frame display.","category":"UI"},
-    {"folder":"NeedToKnow","name":"Need To Know","description":"Tracks buff, debuff, and cooldown durations on timer bars.","category":"Combat"},
-    {"folder":"Omen","name":"Omen Threat Meter","description":"Shows threat levels so you can avoid pulling aggro.","category":"Raid"},
-    {"folder":"OmniCC","name":"OmniCC","description":"Displays cooldown counts as numbers directly on buttons.","category":"Combat"},
-    {"folder":"Ovale","name":"Ovale Spell Priority","description":"Suggests the best spell to cast based on a priority system.","category":"Combat"},
-    {"folder":"Overachiever","name":"Overachiever","description":"Tools and enhancements for achievement hunters.","category":"Utility"},
-    {"folder":"Panda","name":"Panda","description":"One-click milling, prospecting, and disenchanting.","category":"Professions"},
-    {"folder":"Parrot","name":"Parrot","description":"Customisable scrolling combat text with many options.","category":"Combat"},
-    {"folder":"PhoenixStyle","name":"PhoenixStyle","description":"Raid UI with boss encounter management tools.","category":"Raid"},
-    {"folder":"PitBull4","name":"PitBull 4.0","description":"Highly customisable unit frame replacement.","category":"UI"},
-    {"folder":"Postal","name":"Postal","description":"Enhanced mailbox with bulk open, COD management, and more.","category":"Utility"},
-    {"folder":"PowerAuras","name":"Power Auras Classic","description":"Displays configurable visual and audio alerts for procs and buffs.","category":"Combat"},
-    {"folder":"Prat-3.0","name":"Prat 3.0","description":"Extensive chat frame enhancement and customisation.","category":"Chat"},
-    {"folder":"Quartz","name":"Quartz","description":"Modular cast bar replacement with latency compensation.","category":"Combat"},
-    {"folder":"Querier","name":"Querier","description":"Database querying and item lookup tool.","category":"Utility"},
-    {"folder":"QuestHelper","name":"Quest Helper","description":"Shows optimised quest routes and objective markers on the map.","category":"Questing"},
-    {"folder":"QuestPointer","name":"Quest Pointer","description":"Adds directional pointers to quest objectives.","category":"Questing"},
-    {"folder":"QuestRepeat","name":"Quest Repeat","description":"Tracks daily and repeatable quest cooldowns.","category":"Questing"},
-    {"folder":"RSA","name":"RSA - Raid Spell Announcer","description":"Announces your spells and abilities in chat.","category":"Raid"},
-    {"folder":"RaidAchievement","name":"Raid Achievement","description":"Tracks and announces raid achievement progress in real time.","category":"Raid"},
-    {"folder":"RaidBuffStatus","name":"Raid Buff Status","description":"Displays which raid buffs are missing and who can provide them.","category":"Raid"},
-    {"folder":"RangeDisplay","name":"Range Display","description":"Shows the exact distance to your current target.","category":"Combat"},
-    {"folder":"RatingBuster","name":"Rating Buster","description":"Converts combat ratings to percentages in item tooltips.","category":"Utility"},
-    {"folder":"Recount","name":"Recount","description":"Classic damage and healing meter with detailed breakdowns.","category":"Raid"},
-    {"folder":"Routes","name":"Routes","description":"Draws optimised gathering routes on your map.","category":"Professions"},
-    {"folder":"SatrinaBuffFrame","name":"Satrina Buff Frame","description":"Fully customisable buff and debuff frame replacement.","category":"UI"},
-    {"folder":"SavedInstances","name":"Saved Instances","description":"Tracks instance lockouts and raid IDs across all characters.","category":"Utility"},
-    {"folder":"SexyMap","name":"SexyMap","description":"Beautiful, customisable minimap replacement.","category":"UI"},
-    {"folder":"SharedMedia","name":"Shared Media","description":"Library of fonts, textures, and sounds shared between addons.","category":"Utility"},
-    {"folder":"SimpleSelfRebuff","name":"Simple Self Rebuff","description":"Automatically re-applies your self-buffs when they expire.","category":"Utility"},
-    {"folder":"Skada","name":"Skada Damage Meter","description":"Lightweight damage and healing meter with multiple display modes.","category":"Raid"},
-    {"folder":"Skinner","name":"Skinner","description":"Skins the default UI and many addon frames with a unified look.","category":"UI"},
-    {"folder":"Skull Me","name":"Skull Me","description":"Marks a skull on your target with a single button or keybind.","category":"Utility"},
-    {"folder":"SlideBar","name":"SlideBar","description":"A slide-out bar for FuBar and data broker plugins.","category":"UI"},
-    {"folder":"SmartRes2","name":"SmartRes 2","description":"Intelligently handles resurrection spells to avoid conflicts.","category":"Raid"},
-    {"folder":"SpartanUI","name":"SpartanUI","description":"Complete UI overhaul with a clean, stylised interface.","category":"UI"},
-    {"folder":"SpeakinSpell","name":"Speakin' Spell","description":"Announces your spell casts in configurable chat channels.","category":"Utility"},
-    {"folder":"Stubby","name":"Stubby","description":"Required library for the Auctioneer addon suite.","category":"Auction"},
-    {"folder":"Talented","name":"Talented","description":"Save, share, and apply talent templates easily.","category":"Utility"},
-    {"folder":"Talented_for_aowow","name":"Talented (AoWoW)","description":"Talented extension for importing builds from AoWoW.","category":"Utility"},
-    {"folder":"TidyPlates","name":"Tidy Plates","description":"Nameplate replacement with threat colouring and customisation.","category":"Combat"},
-    {"folder":"Titan","name":"Titan Panel","description":"Adds a data bar at the top/bottom of the screen for information plugins.","category":"UI"},
-    {"folder":"TradeskillInfo","name":"Tradeskill Info","description":"Shows which characters can craft an item in tooltips.","category":"Professions"},
-    {"folder":"TrinityAdmin","name":"Trinity Admin","description":"Admin tools panel for server administrators.","category":"Utility"},
-    {"folder":"Violation","name":"Violation","description":"Simple, lightweight DPS and healing meter.","category":"Raid"},
-    {"folder":"WeakAuras","name":"WeakAuras","description":"Powerful and flexible framework for visual and audio notifications.","category":"Combat"},
-    {"folder":"XLoot","name":"XLoot","description":"Enhanced loot frame with faster looting and group roll display.","category":"Utility"},
-    {"folder":"XPerl","name":"X-Perl UnitFrames","description":"Feature-rich unit frame replacement with many customisation options.","category":"UI"},
-    {"folder":"_NPCScan","name":"_NPCScan","description":"Alerts you when a rare NPC is nearby so you never miss one.","category":"Utility"},
-    {"folder":"oRA3","name":"oRA3","description":"Raid coordination addon for cooldown tracking and tank assignments.","category":"Raid"},
-    {"folder":"tacticator","name":"Tacticator","description":"Displays raid tactics and strategy notes during encounters.","category":"Raid"},
-    {"folder":"xMerchant","name":"xMerchant","description":"Enhanced merchant/vendor frame with filtering and sorting.","category":"Utility"}
+    {
+      "folder": "_NPCScan",
+      "name": "_NPCScan",
+      "description": "Alerts you when a rare NPC is nearby so you never miss one.",
+      "category": "Utility"
+    },
+    {
+      "folder": "AckisRecipeList",
+      "name": "Ackis Recipe List",
+      "description": "Scans your tradeskills and tells you which recipes you are missing.",
+      "category": "Professions"
+    },
+    {
+      "folder": "ACP",
+      "name": "Addon Control Panel",
+      "description": "Manage which addons are loaded without reloading the UI.",
+      "category": "Utility"
+    },
+    {
+      "folder": "AllStats",
+      "name": "All Stats",
+      "description": "Displays all character stats in the character frame.",
+      "category": "UI"
+    },
+    {
+      "folder": "Altoholic",
+      "name": "Altoholic",
+      "description": "Tracks items, currencies, and info across all your characters.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Atlas",
+      "name": "Atlas",
+      "description": "Detailed maps for every dungeon and raid instance.",
+      "category": "Map"
+    },
+    {
+      "folder": "AtlasLoot",
+      "name": "AtlasLoot",
+      "description": "Shows potential loot from every boss in the game.",
+      "category": "Map"
+    },
+    {
+      "folder": "Auc-Advanced",
+      "name": "Auctioneer Advanced",
+      "description": "Powerful auction house scanner and pricing tool.",
+      "category": "Auction"
+    },
+    {
+      "folder": "AutoRepair",
+      "name": "Auto Repair",
+      "description": "Automatically repairs your gear when visiting a vendor.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Bagnon",
+      "name": "Bagnon",
+      "description": "Combines all your bags into a single searchable window.",
+      "category": "Bags"
+    },
+    {
+      "folder": "BankItems",
+      "name": "Bank Items",
+      "description": "Tracks what items are in your bank across all characters.",
+      "category": "Bags"
+    },
+    {
+      "folder": "BankStack",
+      "name": "Bank Stack",
+      "description": "Automatically stacks and sorts items in your bank.",
+      "category": "Bags"
+    },
+    {
+      "folder": "Bartender4",
+      "name": "Bartender4",
+      "description": "Full action bar replacement with extensive customization.",
+      "category": "UI"
+    },
+    {
+      "folder": "BeanCounter",
+      "name": "Bean Counter",
+      "description": "Tracks your auction house transactions and profits.",
+      "category": "Auction"
+    },
+    {
+      "folder": "BigWigs",
+      "name": "BigWigs Bossmods",
+      "description": "Boss encounter timers and alerts for raids.",
+      "category": "Raid"
+    },
+    {
+      "folder": "BlizzMove",
+      "name": "BlizzMove",
+      "description": "Makes all default Blizzard frames movable and resizable.",
+      "category": "UI"
+    },
+    {
+      "folder": "BossEncounter2",
+      "name": "Boss Encounter 2",
+      "description": "Displays boss mechanics and encounter information.",
+      "category": "Raid"
+    },
+    {
+      "folder": "BreadCrumbs",
+      "name": "Bread Crumbs",
+      "description": "Highlights breadcrumb quests so you don't miss them.",
+      "category": "Questing"
+    },
+    {
+      "folder": "ButtonFacade",
+      "name": "ButtonFacade",
+      "description": "Apply custom skins and textures to your action buttons.",
+      "category": "UI"
+    },
+    {
+      "folder": "Capping",
+      "name": "Capping",
+      "description": "Battleground timers, node capture progress, and info.",
+      "category": "PvP"
+    },
+    {
+      "folder": "Carbonite",
+      "name": "Carbonite",
+      "description": "All-in-one quest helper with enhanced world map.",
+      "category": "Questing"
+    },
+    {
+      "folder": "Chinchilla",
+      "name": "Chinchilla Minimap",
+      "description": "Fully customizable minimap replacement.",
+      "category": "UI"
+    },
+    {
+      "folder": "Clique",
+      "name": "Clique",
+      "description": "Click-cast healing and buff spells directly on unit frames.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Collectinator",
+      "name": "Collectinator",
+      "description": "Tracks which pets, mounts and collectibles you are missing.",
+      "category": "Utility"
+    },
+    {
+      "folder": "CombatLogFix",
+      "name": "Combat Log Fix",
+      "description": "Increases combat log range to capture all events.",
+      "category": "Combat"
+    },
+    {
+      "folder": "Combuctor",
+      "name": "Combuctor",
+      "description": "Bag replacement with item search and categorisation.",
+      "category": "Bags"
+    },
+    {
+      "folder": "CrapAway",
+      "name": "Crap Away",
+      "description": "Automatically sells grey (junk) items when visiting a vendor.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Critline",
+      "name": "Critline",
+      "description": "Tracks and announces your best hits, crits and heals.",
+      "category": "Combat"
+    },
+    {
+      "folder": "Cromulent",
+      "name": "Cromulent",
+      "description": "Displays realm and connection information.",
+      "category": "Utility"
+    },
+    {
+      "folder": "DBM",
+      "name": "Deadly Boss Mods",
+      "description": "The most popular boss mod \u2014 timers and alerts for every encounter.",
+      "category": "Raid"
+    },
+    {
+      "folder": "DebuffFilter",
+      "name": "Debuff Filter",
+      "description": "Filters and prioritises which debuffs are shown on frames.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Decursive",
+      "name": "Decursive",
+      "description": "One-click decursing with a clean micro-display of affected players.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Details-Damage-Meter",
+      "name": "Details! Damage Meter",
+      "description": "Highly detailed combat damage and healing meter.",
+      "category": "Raid"
+    },
+    {
+      "folder": "DiminishingReturns",
+      "name": "Diminishing Returns",
+      "description": "Tracks PvP diminishing returns on your targets.",
+      "category": "PvP"
+    },
+    {
+      "folder": "Dominos",
+      "name": "Dominos",
+      "description": "Flexible action bar replacement.",
+      "category": "UI"
+    },
+    {
+      "folder": "Doom_CooldownPulse",
+      "name": "Doom Cooldown Pulse",
+      "description": "Shows a pulsing icon when a cooldown finishes.",
+      "category": "Combat"
+    },
+    {
+      "folder": "DrDamage",
+      "name": "Dr. Damage",
+      "description": "Shows damage and healing values on your action bar buttons.",
+      "category": "Combat"
+    },
+    {
+      "folder": "ElkBuffBars",
+      "name": "Elk Buff Bars",
+      "description": "Displays buffs and debuffs as scrolling bars.",
+      "category": "UI"
+    },
+    {
+      "folder": "ElvUI",
+      "name": "ElvUI",
+      "description": "Complete, polished UI replacement covering every element.",
+      "category": "UI"
+    },
+    {
+      "folder": "Enchantrix",
+      "name": "Enchantrix",
+      "description": "Enchanting disenchant value overlay in item tooltips.",
+      "category": "Auction"
+    },
+    {
+      "folder": "EquusInfinata",
+      "name": "Equus Infinata",
+      "description": "Displays mount speed and collection information.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Factionizer",
+      "name": "Factionizer",
+      "description": "Helps plan and track reputation grinding.",
+      "category": "Utility"
+    },
+    {
+      "folder": "FollowFelankor",
+      "name": "Follow Felankor",
+      "description": "Auto-follow and movement helper addon.",
+      "category": "Utility"
+    },
+    {
+      "folder": "FramesResized",
+      "name": "Frames Resized",
+      "description": "Resize and reposition default Blizzard UI frames.",
+      "category": "UI"
+    },
+    {
+      "folder": "FS_Cooldowns",
+      "name": "FS Cooldowns",
+      "description": "Tracks raid-wide cooldowns on a clean display.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Gatherer",
+      "name": "Gatherer",
+      "description": "Tracks gathering node locations and shows them on the minimap.",
+      "category": "Professions"
+    },
+    {
+      "folder": "GatherMate",
+      "name": "GatherMate",
+      "description": "Records and displays herb and ore node locations on your map.",
+      "category": "Professions"
+    },
+    {
+      "folder": "GatherMate_Data",
+      "name": "GatherMate Data",
+      "description": "Pre-loaded node data for GatherMate.",
+      "category": "Professions"
+    },
+    {
+      "folder": "GcdHackTracker",
+      "name": "GCD Hack Tracker",
+      "description": "Detects players using GCD manipulation hacks.",
+      "category": "Utility"
+    },
+    {
+      "folder": "GearScore",
+      "name": "GearScore",
+      "description": "Calculates and displays a gear score for any character.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Gladius",
+      "name": "Gladius",
+      "description": "Arena enemy unit frames with DR tracking and cooldowns.",
+      "category": "PvP"
+    },
+    {
+      "folder": "GMGenie",
+      "name": "GM Genie",
+      "description": "Server admin tools and GM commands interface.",
+      "category": "Utility"
+    },
+    {
+      "folder": "GoblinVendorFilter",
+      "name": "Goblin Vendor Filter",
+      "description": "Filters vendor items to show only what you need.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Grid",
+      "name": "Grid",
+      "description": "Compact, configurable raid frame with status indicators.",
+      "category": "Raid"
+    },
+    {
+      "folder": "GTFO",
+      "name": "GTFO",
+      "description": "Plays an alert sound when you stand in something dangerous.",
+      "category": "Raid"
+    },
+    {
+      "folder": "GuildBankSearch",
+      "name": "Guild Bank Search",
+      "description": "Search all tabs of the guild bank by item name.",
+      "category": "Utility"
+    },
+    {
+      "folder": "HealOrganizer",
+      "name": "Heal Organizer",
+      "description": "Assigns and organises healer assignments for raids.",
+      "category": "Raid"
+    },
+    {
+      "folder": "HealBot",
+      "name": "HealBot Continued",
+      "description": "Healing addon with customisable click-casting on raid frames.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Healers-Have-To-Die",
+      "name": "Healers Have To Die",
+      "description": "Marks enemy healers in PvP for quick identification.",
+      "category": "PvP"
+    },
+    {
+      "folder": "Healium",
+      "name": "Healium",
+      "description": "Simple healing frame with click-to-heal support.",
+      "category": "Raid"
+    },
+    {
+      "folder": "IceHUD",
+      "name": "IceHUD",
+      "description": "Heads-up display showing health, mana, and cast info near your character.",
+      "category": "UI"
+    },
+    {
+      "folder": "IdTip",
+      "name": "ID Tip",
+      "description": "Shows item, spell, and NPC IDs in tooltips.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Informant",
+      "name": "Informant",
+      "description": "Adds detailed vendor value and item information to tooltips.",
+      "category": "Auction"
+    },
+    {
+      "folder": "InterruptBar",
+      "name": "Interrupt Bar",
+      "description": "Tracks interrupt cooldowns for your whole group.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Jamba",
+      "name": "Jamba",
+      "description": "Multiboxing addon for managing multiple WoW clients.",
+      "category": "Utility"
+    },
+    {
+      "folder": "LittleWigs",
+      "name": "LittleWigs",
+      "description": "Boss mods for 5-man dungeons, paired with BigWigs.",
+      "category": "Raid"
+    },
+    {
+      "folder": "LootHog",
+      "name": "Loot Hog",
+      "description": "Enhanced loot distribution and master loot helper.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Magnet",
+      "name": "Magnet",
+      "description": "Auto-loots nearby corpses as you move past them.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Mapster",
+      "name": "Mapster",
+      "description": "Clean world map enhancement with coordinates and addons.",
+      "category": "Map"
+    },
+    {
+      "folder": "MikScrollingBattleText",
+      "name": "Mik Scrolling Battle Text",
+      "description": "Configurable scrolling combat text replacement.",
+      "category": "Combat"
+    },
+    {
+      "folder": "MBB",
+      "name": "MinimapButtonBag",
+      "description": "Collects minimap buttons into a single clean icon.",
+      "category": "UI"
+    },
+    {
+      "folder": "MonkeySpeed",
+      "name": "Monkey Speed",
+      "description": "Shows your current movement speed on screen.",
+      "category": "Utility"
+    },
+    {
+      "folder": "MoveAnything",
+      "name": "MoveAnything",
+      "description": "Move, scale, and hide any element of the default UI.",
+      "category": "UI"
+    },
+    {
+      "folder": "MyBuffz",
+      "name": "My Buffz",
+      "description": "Custom buff and debuff frame display.",
+      "category": "UI"
+    },
+    {
+      "folder": "NeedToKnow",
+      "name": "Need To Know",
+      "description": "Tracks buff, debuff, and cooldown durations on timer bars.",
+      "category": "Combat"
+    },
+    {
+      "folder": "Omen",
+      "name": "Omen Threat Meter",
+      "description": "Shows threat levels so you can avoid pulling aggro.",
+      "category": "Raid"
+    },
+    {
+      "folder": "OmniCC",
+      "name": "OmniCC",
+      "description": "Displays cooldown counts as numbers directly on buttons.",
+      "category": "Combat"
+    },
+    {
+      "folder": "oRA3",
+      "name": "oRA3",
+      "description": "Raid coordination addon for cooldown tracking and tank assignments.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Ovale",
+      "name": "Ovale Spell Priority",
+      "description": "Suggests the best spell to cast based on a priority system.",
+      "category": "Combat"
+    },
+    {
+      "folder": "Overachiever",
+      "name": "Overachiever",
+      "description": "Tools and enhancements for achievement hunters.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Panda",
+      "name": "Panda",
+      "description": "One-click milling, prospecting, and disenchanting.",
+      "category": "Professions"
+    },
+    {
+      "folder": "Parrot",
+      "name": "Parrot",
+      "description": "Customisable scrolling combat text with many options.",
+      "category": "Combat"
+    },
+    {
+      "folder": "PhoenixStyle",
+      "name": "PhoenixStyle",
+      "description": "Raid UI with boss encounter management tools.",
+      "category": "Raid"
+    },
+    {
+      "folder": "PitBull4",
+      "name": "PitBull 4.0",
+      "description": "Highly customisable unit frame replacement.",
+      "category": "UI"
+    },
+    {
+      "folder": "Postal",
+      "name": "Postal",
+      "description": "Enhanced mailbox with bulk open, COD management, and more.",
+      "category": "Utility"
+    },
+    {
+      "folder": "PowerAuras",
+      "name": "Power Auras Classic",
+      "description": "Displays configurable visual and audio alerts for procs and buffs.",
+      "category": "Combat"
+    },
+    {
+      "folder": "Prat-3.0",
+      "name": "Prat 3.0",
+      "description": "Extensive chat frame enhancement and customisation.",
+      "category": "Chat"
+    },
+    {
+      "folder": "Quartz",
+      "name": "Quartz",
+      "description": "Modular cast bar replacement with latency compensation.",
+      "category": "Combat"
+    },
+    {
+      "folder": "Querier",
+      "name": "Querier",
+      "description": "Database querying and item lookup tool.",
+      "category": "Utility"
+    },
+    {
+      "folder": "QuestHelper",
+      "name": "Quest Helper",
+      "description": "Shows optimised quest routes and objective markers on the map.",
+      "category": "Questing"
+    },
+    {
+      "folder": "QuestPointer",
+      "name": "Quest Pointer",
+      "description": "Adds directional pointers to quest objectives.",
+      "category": "Questing"
+    },
+    {
+      "folder": "QuestRepeat",
+      "name": "Quest Repeat",
+      "description": "Tracks daily and repeatable quest cooldowns.",
+      "category": "Questing"
+    },
+    {
+      "folder": "Questie-335",
+      "name": "Questie",
+      "description": "The most popular quest helper for 3.3.5a \u2014 shows quest objectives, givers, and turn-ins on your map.",
+      "category": "Questing",
+      "zipUrl": "https://github.com/wizardofth3moon/herd-wow-addons/releases/download/addons-v1/Questie-335.zip"
+    },
+    {
+      "folder": "RaidAchievement",
+      "name": "Raid Achievement",
+      "description": "Tracks and announces raid achievement progress in real time.",
+      "category": "Raid"
+    },
+    {
+      "folder": "RaidBuffStatus",
+      "name": "Raid Buff Status",
+      "description": "Displays which raid buffs are missing and who can provide them.",
+      "category": "Raid"
+    },
+    {
+      "folder": "RangeDisplay",
+      "name": "Range Display",
+      "description": "Shows the exact distance to your current target.",
+      "category": "Combat"
+    },
+    {
+      "folder": "RatingBuster",
+      "name": "Rating Buster",
+      "description": "Converts combat ratings to percentages in item tooltips.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Recount",
+      "name": "Recount",
+      "description": "Classic damage and healing meter with detailed breakdowns.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Routes",
+      "name": "Routes",
+      "description": "Draws optimised gathering routes on your map.",
+      "category": "Professions"
+    },
+    {
+      "folder": "RSA",
+      "name": "RSA - Raid Spell Announcer",
+      "description": "Announces your spells and abilities in chat.",
+      "category": "Raid"
+    },
+    {
+      "folder": "SatrinaBuffFrame",
+      "name": "Satrina Buff Frame",
+      "description": "Fully customisable buff and debuff frame replacement.",
+      "category": "UI"
+    },
+    {
+      "folder": "SavedInstances",
+      "name": "Saved Instances",
+      "description": "Tracks instance lockouts and raid IDs across all characters.",
+      "category": "Utility"
+    },
+    {
+      "folder": "SexyMap",
+      "name": "SexyMap",
+      "description": "Beautiful, customisable minimap replacement.",
+      "category": "UI"
+    },
+    {
+      "folder": "SharedMedia",
+      "name": "Shared Media",
+      "description": "Library of fonts, textures, and sounds shared between addons.",
+      "category": "Utility"
+    },
+    {
+      "folder": "SimpleSelfRebuff",
+      "name": "Simple Self Rebuff",
+      "description": "Automatically re-applies your self-buffs when they expire.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Skada",
+      "name": "Skada Damage Meter",
+      "description": "Lightweight damage and healing meter with multiple display modes.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Skinner",
+      "name": "Skinner",
+      "description": "Skins the default UI and many addon frames with a unified look.",
+      "category": "UI"
+    },
+    {
+      "folder": "Skull Me",
+      "name": "Skull Me",
+      "description": "Marks a skull on your target with a single button or keybind.",
+      "category": "Utility"
+    },
+    {
+      "folder": "SlideBar",
+      "name": "SlideBar",
+      "description": "A slide-out bar for FuBar and data broker plugins.",
+      "category": "UI"
+    },
+    {
+      "folder": "SmartRes2",
+      "name": "SmartRes 2",
+      "description": "Intelligently handles resurrection spells to avoid conflicts.",
+      "category": "Raid"
+    },
+    {
+      "folder": "SpartanUI",
+      "name": "SpartanUI",
+      "description": "Complete UI overhaul with a clean, stylised interface.",
+      "category": "UI"
+    },
+    {
+      "folder": "SpeakinSpell",
+      "name": "Speakin' Spell",
+      "description": "Announces your spell casts in configurable chat channels.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Stubby",
+      "name": "Stubby",
+      "description": "Required library for the Auctioneer addon suite.",
+      "category": "Auction"
+    },
+    {
+      "folder": "tacticator",
+      "name": "Tacticator",
+      "description": "Displays raid tactics and strategy notes during encounters.",
+      "category": "Raid"
+    },
+    {
+      "folder": "Talented",
+      "name": "Talented",
+      "description": "Save, share, and apply talent templates easily.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Talented_for_aowow",
+      "name": "Talented (AoWoW)",
+      "description": "Talented extension for importing builds from AoWoW.",
+      "category": "Utility"
+    },
+    {
+      "folder": "TidyPlates",
+      "name": "Tidy Plates",
+      "description": "Nameplate replacement with threat colouring and customisation.",
+      "category": "Combat"
+    },
+    {
+      "folder": "Titan",
+      "name": "Titan Panel",
+      "description": "Adds a data bar at the top/bottom of the screen for information plugins.",
+      "category": "UI"
+    },
+    {
+      "folder": "TradeskillInfo",
+      "name": "Tradeskill Info",
+      "description": "Shows which characters can craft an item in tooltips.",
+      "category": "Professions"
+    },
+    {
+      "folder": "TrinityAdmin",
+      "name": "Trinity Admin",
+      "description": "Admin tools panel for server administrators.",
+      "category": "Utility"
+    },
+    {
+      "folder": "Violation",
+      "name": "Violation",
+      "description": "Simple, lightweight DPS and healing meter.",
+      "category": "Raid"
+    },
+    {
+      "folder": "WeakAuras",
+      "name": "WeakAuras",
+      "description": "Powerful and flexible framework for visual and audio notifications.",
+      "category": "Combat"
+    },
+    {
+      "folder": "XPerl",
+      "name": "X-Perl UnitFrames",
+      "description": "Feature-rich unit frame replacement with many customisation options.",
+      "category": "UI"
+    },
+    {
+      "folder": "XLoot",
+      "name": "XLoot",
+      "description": "Enhanced loot frame with faster looting and group roll display.",
+      "category": "Utility"
+    },
+    {
+      "folder": "xMerchant",
+      "name": "xMerchant",
+      "description": "Enhanced merchant/vendor frame with filtering and sorting.",
+      "category": "Utility"
+    }
   ]
 }
